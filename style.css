@@ -1,5 +1,5 @@
 body {
-    background-color: hsla(319, 100%, 95%, 0.945);
+    background-color: #fde2e2;
     color: #d1002a;
     font-family: 'great vibes', cursive;
     font-size: 25px;
@@ -33,7 +33,7 @@ div.videoo {
 
 a {
     text-decoration: none;
-    color: rgb(0, 0, 0);
+    color: #aacfcf;
 }
 
 h5.video {
@@ -67,7 +67,9 @@ div.tabela {
 table {
     border-collapse: collapse;
     text-align: center;
-    color: rgba(0, 0, 0, 1);
+    color: #000000;
+    background-color: #679b9b;
+    border-radius: 5px;
 }
 
 tr,
@@ -95,7 +97,7 @@ form {
     margin-top: 5%;
     padding: 3%;
     width: 75%;
-    background-color: rgba(255, 206, 214, 0.479);
+    background-color: #ffb6b6;
     font-family: 'Cookie', cursive;
     border-radius: 4em;
 }
