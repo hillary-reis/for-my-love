@@ -1,0 +1,215 @@
+body {
+    background-color: OldLace;
+    color: #d1002a;
+    font-family: 'great vibes', cursive;
+    font-size: 25px;
+}
+
+h2.title {
+    margin-left: 40%;
+    margin-top: -20px;
+    font-size: xxx-large;
+}
+
+div.pai {
+    display: flex;
+    align-items: center;
+}
+
+div.filho {
+    padding-left: 30px;
+    font-size: x-large;
+}
+
+h4.list {
+    margin-top: 20px;
+    margin-bottom: -20px;
+}
+
+div.videoo {
+    text-align: center;
+    margin-left: 10%;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+h5.video {
+    margin-top: 0em;
+    font-size: larger;
+}
+
+div.text1 {
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-between;
+}
+
+h3,
+h4,
+h5,
+h6 {
+    margin: 20px 0px 0px;
+}
+
+p.text2 {
+    text-align: right;
+}
+
+div.tabela {
+    display: flex;
+    margin-left: 30%;
+    margin-top: -1%;
+}
+
+table {
+    border-collapse: collapse;
+    text-align: center;
+    color: rgba(0, 0, 0, 1);
+}
+
+tr,
+td {
+    border: 1px solid;
+}
+
+td {
+    padding: 6px;
+}
+
+#formulario {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#titulo-formulario {
+    text-align: center;
+    font-size: 35px;
+    padding-bottom: 6px;
+}
+
+form {
+    margin-top: 5%;
+    padding: 3%;
+    width: 75%;
+    background-color: rgba(255, 206, 214, 0.479);
+    font-family: 'Cookie', cursive;
+    border-radius: 4em;
+}
+
+#questoes {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+#bloco1 {
+    width: 50%;
+}
+
+#bloco2 {
+    width: 50%;
+}
+
+.questao {
+    margin-top: 15px;
+}
+
+label {
+    margin: 10px 0 5px 0;
+}
+
+input[type="text"] {
+    border: transparent;
+    width: 87%;
+    padding: 10px 0px 10px 5px;
+    margin-left: 18px;
+    font-family: 'Cookie', cursive;
+    font-size: smaller;
+    border-radius: 5px;
+}
+
+::placeholder {
+    color: #252424;
+}
+
+select[name="select"] {
+    border: transparent;
+    width: 88%;
+    padding: 10px 0 10px 5px;
+    margin-left: 18px;
+    font-family: 'Cookie', cursive;
+    font-size: smaller;
+    border-radius: 5px;
+}
+
+.radio {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 19px;
+    padding-right: 111px;
+}
+
+input[type="radio"]:hover {
+    cursor: pointer;
+}
+
+.checkbox {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 42px;
+    padding-left: 20px;
+}
+
+input[type="checkbox"]:hover {
+    cursor: pointer;
+}
+
+.checkbox2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 18px;
+    padding-right: 160px;
+}
+
+.radio2 {
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    padding-left: 18px;
+    padding-right: 61px;
+}
+
+.checkbox3 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 18px;
+    padding-right: 44px;
+}
+
+#bottom {
+    text-align: center;
+    margin-top: 15px;
+}
+
+input[type="submit"] {
+    border-color: transparent;
+    color: #ffffff;
+    background-color: rgb(255, 23, 62);
+    border-radius: 5px;
+    /* arredondar a borda */
+    text-shadow: 1px 0px 0px rgba(255, 206, 214, 0.479);
+}
+
+input[type="submit"]:hover {
+    background-color: #eba1ad;
+    cursor: pointer;
+    /* mostra a mãozinha */
+}
