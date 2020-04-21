@@ -1,5 +1,5 @@
 body {
-    background-color: OldLace;
+    background-color: hsla(319, 100%, 95%, 0.945);
     color: #d1002a;
     font-family: 'great vibes', cursive;
     font-size: 25px;
@@ -144,6 +144,7 @@ select[name="select"] {
     font-family: 'Cookie', cursive;
     font-size: smaller;
     border-radius: 5px;
+    background-color: white;
 }
 
 .radio {
