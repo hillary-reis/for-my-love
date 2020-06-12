@@ -1,6 +1,6 @@
 body {
-    background-color: #fde2e2;
-    color: #d1002a;
+    background-color: #f5eee6;
+    color: #db416c;
     font-family: 'great vibes', cursive;
     font-size: 25px;
 }
@@ -14,6 +14,10 @@ h2.title {
 div.pai {
     display: flex;
     align-items: center;
+}
+
+.pai img {
+    border-radius: 10px;
 }
 
 div.filho {
@@ -33,7 +37,7 @@ div.videoo {
 
 a {
     text-decoration: none;
-    color: #aacfcf;
+    color: #2e000e;
 }
 
 h5.video {
@@ -47,10 +51,7 @@ div.text1 {
     justify-content: space-between;
 }
 
-h3,
-h4,
-h5,
-h6 {
+h3, h4, h5, h6 {
     margin: 20px 0px 0px;
 }
 
@@ -68,12 +69,11 @@ table {
     border-collapse: collapse;
     text-align: center;
     color: #000000;
-    background-color: #679b9b;
+    background-color: #f3d7ca;
     border-radius: 5px;
 }
 
-tr,
-td {
+tr, td {
     border: 1px solid;
 }
 
@@ -205,14 +205,14 @@ input[type="checkbox"]:hover {
 input[type="submit"] {
     border-color: transparent;
     color: #ffffff;
-    background-color: rgb(255, 23, 62);
+    background-color: #f76b8a;
     border-radius: 5px;
     /* arredondar a borda */
     text-shadow: 1px 0px 0px rgba(255, 206, 214, 0.479);
 }
 
 input[type="submit"]:hover {
-    background-color: #eba1ad;
+    background-color: #fd4e74;
     cursor: pointer;
     /* mostra a mãozinha */
 }
