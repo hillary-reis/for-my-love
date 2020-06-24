@@ -169,8 +169,11 @@ footer .links-footer .he {
   border-radius: 15px;
 }
 
-.photos .photo .photo-description p {
-  font-size: 5px;
+#contents .photo-description p {
+  margin-top: 0;
+  margin-bottom: 10px;
+  font-size: 16px;
+  line-height: 20px;
 }
 
 
@@ -190,6 +193,7 @@ footer .links-footer .he {
   height: 413px;
   margin: 102px auto 5vh auto;
   padding: 30px;
+  border: solid 3px var(--color-light-red);
   border-radius: 30px;
   position: relative;
   text-align: center;
@@ -197,12 +201,32 @@ footer .links-footer .he {
 
 
 #modal-photos .modals-photos .modal-img img {
-  width: 250px;
-  height: 350px;
+  max-width: 250px;
+  max-height: 350px;
   border-radius: 15px;
+  margin-bottom: 35px;
 }
 
 #modal-photos .modals-photos .close-modal {
   color: var(--color-light-red);
   cursor: pointer;
+  font-size: 20px;
+}
+
+
+#modal-photos .modals-photos a:hover.close-modal {
+  background-color: var(--color-light-red);
+  color: var(--color-white);
+  opacity: 0.8;
+  padding: 8px;
+  border-radius: 10px;
+  transition: 300ms;
+}
+
+
+/*== MODAL PHOTOS ACTIVE ==*/
+
+#modal-photos.active {
+  opacity: 1;
+  visibility: visible;
 }

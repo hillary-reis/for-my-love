@@ -2,8 +2,6 @@ coisas pra fazer no site do matheus - JS
 
 1 - mudar a cor dos <li> na lista 'Lista do por que eu amo o meu namorado' quando o mouse passar por cima
 
-2 - criar um modal que exibe a foto com uma descrição ao clicar na foto escolhida
-
 3 - abrir o vídeo do coração em forma e modal / iframe
 
 4 - abrir as músicas do YouTube em forma de modal / iframe
@@ -11,12 +9,3 @@ coisas pra fazer no site do matheus - JS
 5 - colocar uma pergunta antes de mostrar o formulário 
 
 6 - calcular e mostrar em tela a nota tirada no formulário
-
-
-CSS
-
-1 - mudar a fonte das palavras
-
-2 - mudar a cor da fonte
-
-3 - mudar o background-color 
