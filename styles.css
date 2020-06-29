@@ -66,7 +66,9 @@ header .links-header a:hover {
   max-width: 700px;
   text-align: center;
   margin-top: 20px;
-  margin-left: 25%;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 #content details {
@@ -139,7 +141,8 @@ footer .links-footer .he {
 #contents {
   text-align: center;
   max-width: 1000px;
-  margin-left: 200px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 #contents h2 {
@@ -230,3 +233,127 @@ footer .links-footer .he {
   opacity: 1;
   visibility: visible;
 }
+
+
+
+/*== FORM ==*/
+
+#form {
+  background-color: white;
+  max-width: 1200px;
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 30px;
+  border-radius: 20px;
+  color: var(--color-black);
+}
+
+#form h3 {
+  text-align: center;
+  font-size: 25px;
+  line-height: 35px;
+}
+
+#form .questions {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 20px;
+}
+
+#form .questions .question {
+  margin: 15px 0;
+}
+
+#form .questions .question label {
+  font-size: 15px;
+  line-height: 25px;
+}
+
+#form .questions .question input[type="text"] {
+  padding: 10px;
+  margin-top: 15px;
+  border-radius: 10px;
+  width: 430px;
+  border: 2px solid var(--color-light-red);
+}
+
+#form .questions .question select {
+  padding: 10px;
+  margin-top: 15px;
+  border-radius: 10px;
+  width: 460px;
+  border: 2px solid var(--color-light-red);
+  cursor: pointer;
+}
+
+#form .questions .question .radio1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 5px;
+  margin-top: 5px;
+  width: 400px;
+}
+
+#form .questions .question .radio1 input[type="radio"] {
+  cursor: pointer;
+}
+
+#form .questions .question .checkbox {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 450px;
+  padding: 5px;
+  margin-top: 5px;
+}
+
+#form .questions .question .checkbox input[type="checkbox"] {
+  margin: 6px;
+  cursor: pointer;
+}
+
+#form .questions .question .radio2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 5px;
+  padding: 5px;
+  width: 500px;
+}
+
+#form .questions .question .radio2 input[type="radio"] {
+  margin: 6px;
+  cursor: pointer;
+}
+
+#form .questions .question .checkbox2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 5px;
+  padding: 5px;
+  width: 560px;
+}
+
+#form .questions .question .checkbox2 input[type="checkbox"] {
+  margin: 6px;
+  cursor: pointer;
+}
+
+#form #bottom {
+  text-align: center;
+  margin-top: 10px;
+}
+
+#form #bottom input {
+  padding: 5px;
+  border-radius: 10px;
+  cursor: pointer;
+  color: var(--color-black);
+  background-color: white;
+}
+
+#form #bottom input:hover {
+  background-color: var(--color-light-red);
+  color: var(--color-white);
+  transition: 700ms;
+}
+
