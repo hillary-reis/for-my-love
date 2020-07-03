@@ -1,3 +1,5 @@
+/*== MODAL PHOTOS ==*/
+
 const modalPhotos = document.querySelector ('#modal-photos');
 const modalImg = modalPhotos.querySelector ('.modal-img');
 const photos = document.querySelectorAll ('.photo');
