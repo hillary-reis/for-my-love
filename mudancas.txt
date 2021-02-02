@@ -1,11 +1,7 @@
 coisas pra fazer no site do matheus - JS
 
-1 - mudar a cor dos <li> na lista 'Lista do por que eu amo o meu namorado' quando o mouse passar por cima
+1 - abrir o vídeo do coração em forma e modal / iframe
 
-3 - abrir o vídeo do coração em forma e modal / iframe
+2 - colocar uma pergunta antes de mostrar o formulário 
 
-4 - abrir as músicas do YouTube em forma de modal / iframe
-
-5 - colocar uma pergunta antes de mostrar o formulário 
-
-6 - calcular e mostrar em tela a nota tirada no formulário
+3 - calcular e mostrar em tela a nota tirada no formulário
